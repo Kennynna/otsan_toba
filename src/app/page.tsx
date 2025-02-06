@@ -1,15 +1,17 @@
-import { First } from '@/components/sections/first'
-import { Four } from '@/components/sections/four'
-import { Second } from '@/components/sections/second'
-import { Three } from '@/components/sections/three'
+'use client'
+import { AuroraBackgroundDemo } from '@/components/shared/bg-aurora'
+import { HeroParallaxDemo } from '@/components/shared/hero-paralax'
+
 
 export default function Home() {
 	return (
-		<div className=''>
-			<First />
-			<Second />
-			{/* <Three /> */}
-      <Four/>
+		<div>
+			<AuroraBackgroundDemo>
+				<div>
+					<p>Home</p>
+				</div>
+			</AuroraBackgroundDemo>
+			<HeroParallaxDemo />
 		</div>
 	)
 }

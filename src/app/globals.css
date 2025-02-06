@@ -6,6 +6,7 @@
 
 body {
   font-family: "Inter", Helvetica, sans-serif;
+  background-color: #EAE4CE !important;
 }
 
 @layer utilities {
@@ -73,12 +74,10 @@ body {
 
 @layer base {
   * {
-    @apply border-border;
     margin: 0;
   }
 
   body {
-    @apply bg-background text-foreground;
   }
 }
 
